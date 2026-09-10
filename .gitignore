@@ -1,0 +1,50 @@
+# ============================================================================
+# .GITIGNORE - Αρχεία που δεν πρέπει να μπουν στο GitHub
+# ============================================================================
+
+# 🔐 Ευαίσθητα αρχεία με API keys
+.env
+.env.local
+.env.*.local
+
+# 📦 Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 📁 Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# 📝 IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 📊 MacOS files
+.DS_Store
+
+# 🔍 Pytest cache
+.pytest_cache/
+
+# 📦 Distribution files
+dist/
+build/
+*.egg-info/
+
+# 💾 Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# 📝 Log files
+*.log
+logs/
+
+# 🛠️ OS files
+Thumbs.db
